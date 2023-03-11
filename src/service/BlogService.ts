@@ -2,7 +2,7 @@ import useApi from "@/components/hooks/useApi";
 
 const url = "http://localhost:3333/";
 
-const getPosts = async () => {
+const GetPosts = async () => {
   const { getApi } = useApi();
 
   const res = await getApi(`${url}posts/`, {
@@ -12,5 +12,5 @@ const getPosts = async () => {
 };
 
 export const BlogService = {
-  getPosts,
+  GetPosts,
 };

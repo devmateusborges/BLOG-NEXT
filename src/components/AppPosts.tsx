@@ -20,15 +20,14 @@ export function AppPosts() {
   const [appIsView, setAppIsView] = useState(false);
   const [postData, setDataPosts] = useState<AppPost[]>([]);
   const [indexIsViewData, setIndexIsViewData] = useState(0);
-  //==============================
-  const { getApi } = useApi();
+
   //==============================
   useEffect(() => {
     handleData();
   }, []);
   //==============================
   const handleData = async () => {
-    const result = await BlogService.getPosts();
+    const result = await BlogService.GetPosts();
 
     setDataPosts(result.items);
   };
@@ -41,7 +40,10 @@ export function AppPosts() {
           ASSUNTOS DA SEMANA
         </h1>
         {postData?.map((posts, index) => (
-          <div className="flex flex-col items-center justify-center w-full shadow-lg shadow-stone-300 mt-10 mb-5 p-5">
+          <div
+            key={posts.id}
+            className="flex flex-col items-center justify-center w-full shadow-lg shadow-stone-300 mt-10 mb-5 p-5"
+          >
             <Image
               data-aos="fade-left"
               className="rounded-3xl"
