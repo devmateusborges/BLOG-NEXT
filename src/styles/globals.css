@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Itim&family=Julius+Sans+One&display=swap");
+
+  @apply bg-zinc-300 text-[#bebebe] scroll-smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  /* CREATE */
+  .standard_color {
+    @apply shadow-lg shadow-stone-400;
+    background-color: rgba(200, 39, 39, 0.69);
+  }
+  .standard_card {
+    @apply shadow-lg shadow-stone-400 bg-white mt-3 rounded-md;
+  }
+  .standard_hover {
+    @apply hover:bg-[#a03939] hover:scale-105 delay-100;
+  }
+  .dialog {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
