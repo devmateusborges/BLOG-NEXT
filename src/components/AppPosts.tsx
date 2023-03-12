@@ -82,34 +82,29 @@ export function AppPosts() {
       </div>
 
       {appIsView && (
-        <div className="lx:w-[100%] dialog fixed xl:top-[-30vh] h-[100vh] left-0  right-0">
-          <div className="fixed top-5 h-[100vh] xl:left-20 rounded-lg  w-[100%] xl:w-[90%] text-center bg-white overflow-scroll">
-            <div className="flex w-full items-center justify-center  relative placeholder mt-5 xl:mt-8">
-              <div className="w-[100%]">
-                <h1
-                  data-aos="fade-up"
-                  className="text-[30px] xl:text-[48px] text-black font-semibold"
-                >
-                  {postData[indexIsViewData].title}
-                </h1>
-                <p className="text-[25px] xl:text-[35px] text-stone-700 font-semibold">
-                  {postData[indexIsViewData].subtitle}
-                </p>
-              </div>
-              <div className="xl:mr-5">
-                <button
-                  onClick={() => setAppIsView(false)}
-                  className="standard_color pl-5 pr-5 p-2 rounded-lg standard_hover "
-                >
-                  <EyeClosed size={20} color="#ffffff" weight="light" />
-                </button>
-              </div>
-            </div>
-            <div className="h-full w-full flex justify-center items-center p-5 xl:p-10 ">
-              <p data-aos="fade-up" className="xl:text-[16pt]">
-                {postData[indexIsViewData].subject}
+        <div className="fixed inset-0 standard_scroll overflow-x-hidden top-0 xl:top-[-25vh] h-[100vh] xl:left-20 rounded-lg  w-[100%] xl:w-[90%] text-center bg-white overflow-scroll">
+          <div className="flex w-full items-center justify-center  relative placeholder mt-5 xl:mt-8">
+            <div className="w-[100%]">
+              <h1 className="text-[30px] xl:text-[48px] text-black font-semibold">
+                {postData[indexIsViewData].title}
+              </h1>
+              <p className="text-[25px] xl:text-[35px] text-stone-700 font-semibold">
+                {postData[indexIsViewData].subtitle}
               </p>
             </div>
+            <div className="xl:mr-5">
+              <button
+                onClick={() => setAppIsView(false)}
+                className="standard_color pl-5 pr-5 p-2 rounded-lg standard_hover "
+              >
+                <EyeClosed size={20} color="#ffffff" weight="light" />
+              </button>
+            </div>
+          </div>
+          <div className="h-full w-full flex justify-center items-center p-5 xl:p-10 ">
+            <p className="xl:text-[16pt]">
+              {postData[indexIsViewData].subject}
+            </p>
           </div>
         </div>
       )}

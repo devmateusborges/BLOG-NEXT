@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="standard_scroll">
         <AppHeader />
-        <div className="min-h-min-[100vh]">{children}</div>
+        {children}
         <AppFooter />
       </body>
     </html>
