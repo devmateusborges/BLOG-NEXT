@@ -8,8 +8,8 @@ import { Provider } from "react-redux";
 import store from "../store/index";
 
 export const metadata = {
-  title: "BLOG",
-  description: "BLOG EM DESENVOLVIMENTO",
+  title: "Blog - Advocacia",
+  description: "Blog em desenvolviment Author: Mateus Borges",
 };
 
 export default function RootLayout({
