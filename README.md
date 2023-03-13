@@ -1,3 +1,14 @@
+#Status Do Projeto
+
+<p>🧑🏽‍💻Andamento</p>
+
+#LIVES DO PROJETO 
+
+<a href="https://www.youtube.com/watch?v=tjwfI4v1cvU&list=PLVC-vHDe5uBXo5eLfOMP2knPfPWVx-o2X">🎴 YOUTUBE LIVES</a>
+
+#Deploy Vercel
+
+<a href="https://blog-adv.vercel.app/">ACESSAR SITE</a>
 
 # Start Project
 
