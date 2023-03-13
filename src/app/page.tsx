@@ -8,6 +8,7 @@ import { AppMenuGroups } from "@/components/AppMenuGroups";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import AppLoading from "@/components/AppLoading";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

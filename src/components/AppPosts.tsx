@@ -1,20 +1,12 @@
 "use client";
+import { AppPost } from "@/interfaces/GlobalIntaface";
 import { BlogService } from "@/service/BlogService";
 import Image from "next/image";
+import Link from "next/link";
 import { Eye, EyeClosed, PaperPlaneRight } from "phosphor-react";
 import { useEffect, useState } from "react";
+import AppLoading from "./AppLoading";
 import useApi from "./hooks/useApi";
-
-interface AppPost {
-  id: string;
-  title: string;
-  subtitle: string;
-  subject: string;
-  url_photo: string;
-  date_post?: string;
-  user_id: string;
-  group_id: string;
-}
 
 export function AppPosts() {
   const [appIsView, setAppIsView] = useState(false);
@@ -54,24 +46,25 @@ export function AppPosts() {
             />
 
             <div data-aos="fade-left" className="w-full flex m-5 xl:mt-10">
-              <h1 className="first-line:uppercase text-[20px] ml-10 xl:text-[32px] w-[70%] text-black">
-                {posts.subtitle}
-              </h1>
-              <div className="w-[30%] ">
-                <button
-                  onClick={() => {
-                    setAppIsView(true), setIndexIsViewData(index);
-                  }}
-                  className="standard_color standard_hover p-2  xl:pl-6 xl:pr-6 rounded-lg"
-                >
-                  <Eye size={27} color="#fafafa" weight="light" />
-                </button>
+              <div className="flex flex-col w-[95%]">
+                <h1 className="first-line:uppercase text-[20px] ml-10 xl:text-[32px] w-[70%] text-black">
+                  {posts.title}
+                </h1>
+                <h2 className="first-line:uppercase text-[15px] ml-10 xl:text-[25px] w-[70%] text-[#505050]">
+                  {posts.subtitle}
+                </h2>
               </div>
+              <Link
+                className="standard_color  standard_hover p-2  xl:pl-6 xl:pr-6 rounded-lg w-[10%] flex items-center justify-center h-[36px]"
+                href={`/${posts.id}`}
+              >
+                <Eye size={27} color="#fafafa" weight="light" />
+              </Link>
             </div>
 
             <div data-aos="fade-left" className="p-0 xl:p-6">
-              <p className="text-stone-500">
-                {posts.subject.substring(0, 1000) + "..."}
+              <p className="text-stone-500 indent-8 text-justify">
+                {posts.subject.substring(0, 250) + "..."}
               </p>
             </div>
             <button className="mt-5 w-full  border-t-2 flex items-center justify-center p-3">
@@ -79,35 +72,8 @@ export function AppPosts() {
             </button>
           </div>
         ))}
+        <AppLoading />
       </div>
-
-      {appIsView && (
-        <div className="fixed inset-0 standard_scroll overflow-x-hidden top-0 xl:top-[-25vh] h-[100vh] xl:left-20 rounded-lg  w-[100%] xl:w-[90%] text-center bg-white overflow-scroll">
-          <div className="flex w-full items-center justify-center  relative placeholder mt-5 xl:mt-8">
-            <div className="w-[100%]">
-              <h1 className="text-[30px] xl:text-[48px] text-black font-semibold">
-                {postData[indexIsViewData].title}
-              </h1>
-              <p className="text-[25px] xl:text-[35px] text-stone-700 font-semibold">
-                {postData[indexIsViewData].subtitle}
-              </p>
-            </div>
-            <div className="xl:mr-5">
-              <button
-                onClick={() => setAppIsView(false)}
-                className="standard_color pl-5 pr-5 p-2 rounded-lg standard_hover "
-              >
-                <EyeClosed size={20} color="#ffffff" weight="light" />
-              </button>
-            </div>
-          </div>
-          <div className="h-full w-full flex justify-center items-center p-5 xl:p-10 ">
-            <p className="xl:text-[16pt]">
-              {postData[indexIsViewData].subject}
-            </p>
-          </div>
-        </div>
-      )}
     </>
   );
 }

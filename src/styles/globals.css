@@ -18,7 +18,7 @@ body {
     @apply shadow-lg shadow-stone-400 bg-white mt-3 rounded-md;
   }
   .standard_hover {
-    @apply hover:bg-[#a03939] hover:scale-105 delay-100;
+    @apply hover:bg-[#292929] hover:scale-105 delay-100;
   }
   .dialog {
     position: fixed;
