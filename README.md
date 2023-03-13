@@ -1,8 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#Status Do Projeto
 
-## Getting Started
+<p>🧑🏽‍💻Andamento</p>
 
-First, run the development server:
+#LIVES DO PROJETO 
+
+<a href="https://www.youtube.com/watch?v=tjwfI4v1cvU&list=PLVC-vHDe5uBXo5eLfOMP2knPfPWVx-o2X">🎴 YOUTUBE LIVES</a>
+
+#Deploy Vercel
+
+<a href="https://blog-adv.vercel.app/">ACESSAR SITE</a>
+
+# Start Project
 
 ```bash
 npm run dev
@@ -11,28 +19,11 @@ yarn dev
 # or
 pnpm dev
 ```
+# Pré Visualização 
+<img src="https://lh3.googleusercontent.com/wmPrtR2eV0dP-vKqp2wmjWLxDk0mxIDRuOHaYY73YbhBfT42b4ZGnqKLrq3LLVXVv1gwY7zs8dUdOfVz9ml9wJP63zYVMOJzZYIeRAwMYjQPL64w8npqPKvNlbUH2pJicJj6ZZnXVO1GpPROlBXljJZHYq2m24Oj1rxJnp3jwd_t_--3ftSk28KFvEer_olTjLhKeiONg9T4x1UYByLN57ju3pVYP8s0W2q0PtO1cHB_i3WA0pOkNBrHuARqmRtb3DGADa4_v-VWfr18irxxwIvFNscFyVXQaR2-5FN80Kr67Hz4ZKMdW_zgN6pWwXac7QJtryRXnlGcG1nfdAege-5A67LBh1AOeuejY91dgGms06GLss14tU3tgDdcIH0vYHTBIM5EEG-BahK5-KmzHc0MXdbjIawJ9ZH3_0tRlHqPJglvI3-8_5xxNprkb9bUhRVOkpMl5fACDSTw01djJj0fF4WzZTv-IH9fK1OLkcCscTIVqRORnk9XdyR807ccTaKvZZMDyxu14RCbj5dAJ3aQd-IR548q2HBSBfMptT0EaNBso8egZCsTCMmAhG342y1uCowDkL_DJ8GuFlw_s4tWinQthAO6Smy8qBuqvppB6MM1j75p9R2SaNz3CCeKC4nfvPBgjnCH_Pki2VyrDqw9MfTDLjfRqVCrwO9Wv7GKNZph-s4GpN0mF5dmCBGbfyjMqzjLZM06Z7UY7l8pRnu03zq1anUQ_c-SgEk-wftMFTKJwo4z1YFnNKlMsbpluAUbbRVtvKkKaW2zLgZtVQHXLBa-1_kqp7iazyIp3oZK-TJpbpPpSUZoweCJ3YsFgsP3OUwZxK6lO9FCHSxkh6qSOVbPMyfgadvWnIY5FVAbGiNl_STz55_OpqqzgP0zqKLjTn5X_-6PFJUlpRbBfKHJVZSTwC0tfybOEY5Tmv2WJYSZsVsrM5fN3vmAO80cjxGnXD1PJTNlgZnc=w1356-h618-no?authuser=1" alt="foto" />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="https://lh3.googleusercontent.com/5LNAacPsK0LQcI4Y2Y4HVsQnpbn1m-dmqQn9hYYNDdagdzY66QxDdMRJWqx0V_q9XXV3WQXTYze7rhYRNaYs4MM7oJLW402RjEQm-JyZiaqoCBUqwvNZGur0p33gEzM9wsLleW-Z0v1KynsK5wN3ziPr9PQJa2UL2n-5P9rSVorjkAbAgKUccCw0oU40D1dXgeYCfZrFSioiRrhtyK9jojJQpBxPHgGgVr_RFURlVe2NGyZY7YyrQrNP73r8zTxH9KIfJgXZCXHICnyu83GFWJprPKMxWvjOEVKwtut4NI3u1i6gRk9ss6nQ7U2sovt1vD6y4-2fV_H1qsQHc7mTY8Yo0FpOwHPY2G7EiGdt50BcyoYPnScvSHOXvtm1IxFHBXNvlEnX9bv3-5EJRJHXmN14QQMUFMIDaqE-fKRVEIJM95NUlB-dLU051dc9p0kp1wGNDkoctwhyYhEVoDywTF2UmFVWKFq7wOyiXU3VTE9QCY1M8oACS-lxq86fUBQaDl-57OVh3BKbMMzu9_rdahyZ0cT03vK0W21_ZuehI4zyzSfYx3vrUfgPHIIcapykt8MPIIAbkTrCQlKvV_czTQf3ogv7yMGE454VF8VUG9VZK3UbZr7TWKxLjEw5Jp5QwIvj_ZCP6yTTgDSFNUQGfR6AHSx23wdvalOaB-YMWb887dJn-lwSUYgbfRXd7o1Oc6D4c_h-WGto0M8g3dZz_UhB36SeLi4oazVP72xi01FiufvJDP17oio9CUb3DCZYzIORy0jDsTQkoOypMM346nCArG4OzkoAZCo7lpwYcC-j51Qng4nu6PeibS_fjc4Kgk3HG6JvZHR0tp2MfUMIGzPGTGQxaRxIJKsmFE7QYW7-pP5FNUlYv-oilqS_kJ0YM-WfAOWUagdFnAGEpsvJnUPPjntZvoOL8GdxReJSDowGt-AOCZH0ROJJDKhFZqzx-QV-6H_qscCPp5Do=w1016-h631-no?authuser=1" alt="foto" />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#FIGMA
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="https://www.figma.com/file/SAAXsTwdiYOr9bNBeiaXhT/BLOG-ADVOCACIA?node-id=0%3A1&t=pBWf1yJTj4ZqddVQ-0" >FIGMA</a>
