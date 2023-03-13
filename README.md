@@ -1,5 +1,5 @@
 
-# START Project
+# Start Project
 
 ```bash
 npm run dev
