@@ -7,11 +7,6 @@ import "../styles/globals.css";
 import { Provider } from "react-redux";
 import store from "../store/index";
 
-export const metadata = {
-  title: "Blog - Advocacia",
-  description: "Blog em desenvolviment Author: Mateus Borges",
-};
-
 export default function RootLayout({
   children,
 }: {
