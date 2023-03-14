@@ -5,7 +5,7 @@
 body {
   @import url("https://fonts.googleapis.com/css2?family=Itim&family=Julius+Sans+One&display=swap");
 
-  @apply bg-zinc-300 text-[#bebebe] scroll-smooth;
+  @apply bg-zinc-300 text-[#bebebe] scroll-smooth overflow-x-hidden;
   -webkit-font-smoothing: antialiased;
 }
 

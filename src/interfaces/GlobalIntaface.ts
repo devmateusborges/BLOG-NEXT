@@ -8,3 +8,12 @@ export interface AppPost {
   user_id: string;
   group_id: string;
 }
+
+export interface AppGroup {
+  id?: string;
+  name_group: string;
+  description?: string;
+  color_hex?: string;
+  user_id?: string;
+  post: AppPost[];
+}

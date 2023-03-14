@@ -8,30 +8,18 @@ import { useEffect, useState } from "react";
 import AppLoading from "./AppLoading";
 import useApi from "./hooks/useApi";
 
-export function AppPosts() {
-  const [appIsView, setAppIsView] = useState(false);
-  const [postData, setDataPosts] = useState<AppPost[]>([]);
-  const [indexIsViewData, setIndexIsViewData] = useState(0);
+interface AppPosts {
+  postData: AppPost[];
+}
 
-  //==============================
-  useEffect(() => {
-    handleData();
-  }, []);
-  //==============================
-  const handleData = async () => {
-    const result = await BlogService.GetPosts();
-
-    setDataPosts(result.items);
-  };
-  //==============================
-
+export function AppPosts(props: AppPosts) {
   return (
     <>
       <div className="w-[100%] flex flex-col justify-center items-center">
         <h1 className="  xl:mt-8 xl:text-[48px] text-[25px]   ">
           ASSUNTOS DA SEMANA
         </h1>
-        {postData?.map((posts, index) => (
+        {props.postData?.map((posts, index) => (
           <div
             key={posts.id}
             className="flex flex-col items-center justify-center w-full shadow-lg shadow-stone-300 mt-10 mb-5 p-5"

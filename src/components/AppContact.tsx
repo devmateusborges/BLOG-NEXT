@@ -9,7 +9,7 @@ import {
 export function AppContact() {
   return (
     <div className="flex flex-col items-center justify-center ">
-      <h1 className="font-display text-[36px] m-">Me Siga</h1>
+      <h1 className="font-display text-[36px] m-">me Siga</h1>
       <div className="flex m-5">
         <a className="ml-7 hover:scale-125 delay-75" href="#">
           <InstagramLogo size={90} color="#b4b4b4" weight="light" />
