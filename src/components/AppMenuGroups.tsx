@@ -88,7 +88,11 @@ export function AppMenuGroups() {
       <div className="flex w-full mb-5">
         <ul className="w-full">
           {groupData.map((group) => (
-            <Dropdown name_group={group.name_group} post={group.post} />
+            <Dropdown
+              key={group.id}
+              name_group={group.name_group}
+              post={group.post}
+            />
           ))}
         </ul>
       </div>
