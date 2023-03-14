@@ -52,7 +52,10 @@ export function AppMenuGroups() {
         </button>
         <ul className={`m-4  ${activeArrow}`}>
           {group.post.map((post) => (
-            <li className="border border-1 m-1 rounded-lg pl-2 hover:bg-[#919191] hover:scale-105 delay-100 hover:text-white hover:font-bold">
+            <li
+              key={post.id}
+              className="border border-1 m-1 rounded-lg pl-2 hover:bg-[#919191] hover:scale-105 delay-100 hover:text-white hover:font-bold"
+            >
               <Link
                 onClick={() => dispatch(SideBar(false))}
                 href={`/${post.id}`}
