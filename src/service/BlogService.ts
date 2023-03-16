@@ -1,6 +1,6 @@
 import useApi from "@/components/hooks/useApi";
 
-const url = "https://api-blog-adv.onrender.com/";
+const url = "http://localhost:3333/";
 
 const GetPosts = async () => {
   const { getApi } = useApi();
